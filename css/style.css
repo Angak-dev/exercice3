@@ -1,3 +1,43 @@
 body {
     font-family: Arial, Helvetica, sans-serif; 
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+h1 {
+    font-size: 3em;
+    background-color: blueviolet;
+    text-align: center;
+}
+
+header {
+    border: solid 2px black;
+    background-color: #add8e6;
+}
+
+main {
+    border: dotted 3px purple;
+    margin: 2vh;
+    background-color: orange;
+}
+
+footer {
+    border: groove 2px greenyellow;
+    margin: 3px;
+    height: 200px;
+    width: 100%;
+    background-color: crimson;
+    display: flex;
+    justify-content: center;
+}
+
+.menu_header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.paragraphe_main {
+    text-align: center;
 }
